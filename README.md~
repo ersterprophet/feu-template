@@ -4,8 +4,8 @@ Ein einfaches LaTeX-Template mit Deckblatt für die deigitale Übermittlung von ge
 
 Quickstart
 ------------
-In der Datei "feu-template.tex" den Abschnitt zwischen **START OF PARAMETERS** und **END OF PARAMETERS** sowie die Punkte-Matrix
-zwischen **START POINT GRID** und **END POINT GRID** anpassen und danach die Datei durch die LaTeX-Distribution der Wahl jagen.
+In der Datei "feu-template.tex" den Abschnitt zwischen **START OF PARAMETERS** und **END OF PARAMETERS** anpassen und
+danach die Datei durch die LaTeX-Distribution der Wahl jagen.
 Das Template wurde erfolgreich unter Windows 7 mit MikTeX 2.9 getestet.
 
 Backlog

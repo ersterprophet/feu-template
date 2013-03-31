@@ -1,0 +1,131 @@
+\documentclass[11pt,a4paper]{article}
+
+%~~*~~*~~*~~*~~*~~*~~*~~*~~*~~*%
+%           Packages           %
+%~~*~~*~~*~~*~~*~~*~~*~~*~~*~~*%
+\usepackage[utf8]{inputenc}
+\usepackage{fancyhdr}
+\usepackage{amstext}          	
+\usepackage{mathtools}          	
+\usepackage{amsfonts}         	
+\usepackage{amssymb}          	
+\usepackage{bm}
+\usepackage{epsfig}
+\usepackage{subfig}
+\usepackage{tabu}
+\usepackage{stringstrings}
+
+%~~*~~*~~*~~*~~*~~*~~*~~*~~*~~*%
+%            Macros            %
+%~~*~~*~~*~~*~~*~~*~~*~~*~~*~~*%
+\newtheorem*{theorem}{}
+\newenvironment{proof}{\noindent{\bf Beweis:}}{$\hfill \Box$ \vspace{10pt}} 
+
+\newcommand{\mytblbdsz}{1pt}             % custom table border size
+
+%-----------------------------%
+%   START OF PARAMETERS       %
+%-----------------------------%
+% Kursdaten
+\newcommand{\moduleId}{01825} 
+\newcommand{\moduleName}{Logik für Informatiker}
+\newcommand{\moduleUnit}{01}
+
+% Anschrift
+\newcommand{\myName}{Max Mustermann}
+\newcommand{\myAddress}{Teststr. 1}
+\newcommand{\myZipCode}{58084}
+\newcommand{\myCity}{Hagen}
+\newcommand{\myCountryIso}{DE}
+
+% Matrikelnummer
+\newcommand{\matriculNo}{8931038}
+%-----------------------------%
+%    END OF PARAMETERS        %
+%-----------------------------%
+
+\setlength{\unitlength}{1cm}
+\setlength{\oddsidemargin}{0.3cm}
+\setlength{\evensidemargin}{0.3cm}
+\setlength{\textwidth}{15.5cm}
+\setlength{\topmargin}{-1.2cm}
+\setlength{\textheight}{23cm}
+\setlength{\parindent}{0mm}              % Absätze unterdrücken
+
+%-----------------------------%
+% header                      %
+%-----------------------------%
+\pagestyle{fancyplain} 
+\fancyhf{}
+\lhead{\fancyplain{}{Kurs \moduleId: \moduleName\\ \myName}}
+\rhead{\fancyplain{}{Kurseinheit \moduleUnit\\Matrikel-Nr: \matriculNo}}
+\fancyfoot[C]{\thepage} %Seitennummer
+
+%~~*~~*~~*~~*~~*~~*~~*~~*~~*~~*%
+%           Document           %
+%~~*~~*~~*~~*~~*~~*~~*~~*~~*~~*%
+\begin{document}
+
+\begin{titlepage}
+
+\rule{0pt}{0pt}
+\vfill
+\vfill
+
+\begin{huge}
+Einsendeaufgaben
+\end{huge}
+
+\vspace{20mm}
+
+{\large
+\begin{tabular}{lcl}
+Kurs &:   & 01825 Logik für Informatiker\\
+Kurseinheit &:  & 01\\
+\end{tabular}}
+
+\vspace{15mm}
+
+\hspace{1mm} Matrikelnummer \hspace{13mm}
+{\small
+\tabulinesep=4mm
+\begin{tabu} to 7cm {|[\mytblbdsz] X[1,c] | X[1,c] | X[1,c] | X[1,c] | X[1,c] | X[1,c] | X[1,c] |[\mytblbdsz]}
+    \tabucline[\mytblbdsz]{-} 
+		 \substring{\matriculNo}{$-6}{$-6} & \substring{\matriculNo}{$-5}{$-5}  & \substring{\matriculNo}{$-4}{$-4} &  \substring{\matriculNo}{$-3}{$-3} &  \substring{\matriculNo}{$-2}{$-2} &  \substring{\matriculNo}{$-1}{$-1} &  \substring{\matriculNo}{$}{$} &
+		\tabucline[\mytblbdsz]{-} 
+\end{tabu}}
+
+\vspace{10mm}
+
+{\normalsize
+\begin{tabular}{lcl}
+Name &:   & \myName\\
+Straße &:  & \myAddress\\
+Land / PLZ / Stadt &:  & \myCountryIso \hspace{2mm} \myZipCode \hspace{2mm} \myCity\\
+\end{tabular}}
+
+\vspace{10mm}
+
+%-----------------------------%
+%    START POINT GRID         %
+%-----------------------------%
+{\small
+\tabulinesep=3mm
+\begin{tabu} to 13cm {|[\mytblbdsz] l | X[1,c] | X[1,c] | X[1,c] | X[1,c] |X[1,c] | X[1,c] |[\mytblbdsz] X[1,c] |}
+    \tabucline[\mytblbdsz]{1-7}
+    Aufgabe                         & 1 & 2 & 3 & 4 & 5 & Summe\\ \hline
+    bearbeitet                      &   &   &   &   &   &      \\ \hline
+		maximale Punktzahl              &   &   &   &   &   &      \\ \hline
+		erreichte Punktzahl             &   &   &   &   &   &      \\ 
+		\tabucline[\mytblbdsz]{1-7}
+\end{tabu}}
+%-----------------------------%
+%    END POINT GRID           %
+%-----------------------------%
+\end{titlepage}
+
+\section*{Aufgabe 1}
+\paragraph*{(a)}
+\paragraph*{(b)}
+
+\end{document}
