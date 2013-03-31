@@ -1,6 +1,6 @@
 feu-template
 ============
-Ein einfaches LaTeX-Template mit Deckblatt für die deigitale Übermittlung von gelösten Einsendeaufgaben der FEU.
+Ein einfaches LaTeX-Template mit Deckblatt für die digitale Übermittlung von gelösten Einsendeaufgaben der FEU.
 
 Quickstart
 ------------

@@ -11,7 +11,7 @@ Das Template wurde erfolgreich unter Windows 7 mit MikTeX 2.9 getestet.
 Contribution
 ------------
 Beiträge und Verbesserungsvorschläge sind sehr willkommen.
-Erstellt einenfFork und schickt mir einen pull request - Extrapunkte für separate Branches je Änderungsvorschlag / Issue!
+Erstellt einen Fork und schickt mir einen pull request - Extrapunkte für separate Branches je Änderungsvorschlag / Issue!
 
 Merci im Voraus!
 
